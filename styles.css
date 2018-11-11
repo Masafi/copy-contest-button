@@ -1,0 +1,44 @@
+.copy-button-informatics {
+	margin: 0px 20px;
+	background-color: #fff;
+	border: solid 1px #db8;
+	text-align: center;
+	color: #963;
+	text-decoration: none;
+	padding: 0.3em 0.5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	cursor: pointer;
+}
+
+.copy-button-informatics:focus {
+	outline:0;
+}
+
+.copy-button-yandex {
+	margin: 0px 20px !important;
+	padding: 0px 10px !important;
+	background-color: #fff;
+	border: 1px solid rgba(0,0,0,.2);
+	border-radius: 3px;
+	text-align: center;
+	color: #000;
+	font-family: Arial, sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 400 !important;
+	line-height: 26px !important;
+	cursor: pointer;
+}
+
+.copy-button-container {
+	display: flex; 
+	align-items: center;
+}
+
+.copy-button-yandex:focus {
+	outline:0;
+}
+
+.copy-button-yandex:hover {
+	border: 1px solid rgba(0,0,0,0.3);
+}

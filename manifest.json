@@ -1,0 +1,21 @@
+{
+	"name": "Copy Contest Button",
+	"description" : "Adds copy button for contest sites",
+	"version": "0.1",
+	"manifest_version": 2,
+    "author": "Iskandarov Lev",
+	"browser_action": {
+		"default_title": "Copy Contest Button"
+	},
+	"content_scripts": [{
+		"matches": ["*://informatics.mccme.ru/*", "*://informatics.msk.ru/*"],
+		"css": ["styles.css"],
+		"js": ["script.js", "informatics.js"],
+		"run_at": "document_idle"
+	}, {
+		"matches": ["*://official.contest.yandex.ru/*", "*://contest.yandex.ru/*"],
+		"css": ["styles.css"],
+		"js": ["script.js", "yandex.js"],
+		"run_at": "document_idle"
+	}]
+}
